@@ -28,10 +28,10 @@ public class TimeCardService {
         File pathBinary = new File("");
         FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);
         FirefoxProfile firefoxProfile = new FirefoxProfile();
-        if (defaultConf) {
-            ProfilesIni pi = new ProfilesIni();
-            firefoxProfile = pi.getProfile("default");
-        }
+
+        ProfilesIni pi = new ProfilesIni();
+        firefoxProfile = pi.getProfile("default");
+
         //20180713 取消旧写法，改用新写法
         //WebDriver driver = new FirefoxDriver(firefoxBinary, firefoxProfile);
         FirefoxOptions options = new FirefoxOptions().setBinary(firefoxBinary).setProfile(firefoxProfile);
