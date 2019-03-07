@@ -1,7 +1,7 @@
 package me.abel.toutiao.service;
 
-import me.abel.utils.http.HttpClientUtil;
-import me.abel.utils.http.exception.HttpRequestException;
+import me.abel.utils.commons.HttpClientUtil;
+import me.abel.utils.commons.exception.HttpRequestException;
 import org.apache.http.HttpResponse;
 
 import java.io.IOException;

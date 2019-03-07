@@ -10,9 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>utils</artifactId>
+    <packaging>pom</packaging>
 
     <name>utils</name>
     <url>http://www.example.com</url>
+    <modules>
+        <module>utils-stream</module>
+        <module>utils-json</module>
+        <module>utils-http</module>
+        <module>utils-commons</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
