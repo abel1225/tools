@@ -2,6 +2,7 @@ package me.abel.elasticsearch.template;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import me.abel.elasticsearch.template.dto.PropertiesDto;
 import me.abel.utils.http.HttpClientUtil;
 
 import java.util.ArrayList;

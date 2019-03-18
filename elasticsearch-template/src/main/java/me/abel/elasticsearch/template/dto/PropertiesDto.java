@@ -1,4 +1,4 @@
-package me.abel.elasticsearch.template;
+package me.abel.elasticsearch.template.dto;
 
 /**
  * @description:
